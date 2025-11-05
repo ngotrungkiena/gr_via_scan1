@@ -58,7 +58,7 @@ const Index = () => {
 
     const timer = setTimeout(() => {
       setShowSplash(false);
-    }, 2880);
+    }, 0);
 
     return () => clearTimeout(timer);
   }, []);

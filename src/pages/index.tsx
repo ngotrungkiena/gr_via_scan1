@@ -15,7 +15,7 @@ import { useTranslation } from "@/hooks/useTranslation";
 const Index = () => {
   const navigate = useNavigate();
   const [today, setToday] = useState("");
-  const [showSplash, setShowSplash] = useState(true);
+  const [showSplash, setShowSplash] = useState(false);
 
   const texts = {
     welcome: "Welcome To Facebook Protect.",
